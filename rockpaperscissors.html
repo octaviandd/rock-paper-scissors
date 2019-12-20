@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="rockpaperscissors.css">
+    <meta charset="utf-8">
+
+    <title>Rock Paper Scissors</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <div class="container"><h2><span id='round_number'>Round:</span></h2></div>
+
+
+    <div class="container">
+      <div class="player">PLAYER</div>
+      <div class="player">COMPUTER</div>
+    </div>
+
+
+
+    <div class="container">
+      <div class="wintieswin">WINS</div>
+      <div class="wintieswin" id='ties'>TIES</div>
+      <div class="wintieswin">WINS</div>
+    </div>
+
+
+    <div class="container">
+      <div class="wintieswin1" id='player_wins'><span id='user_score'>0</span></div>
+      <div class="wintieswin1" id='tie'><span id='ties_number'>0</span></div>
+      <div class="wintieswin1" id='computer_wins'><span id='computer_score'>0</span></div>
+    </div>
+
+
+
+
+
+      <div class="choices">
+
+          <div class="choice" id="rock">
+            <img src="rock.png" alt="">
+          </div>
+
+          <div class="choice" id='paper'>
+            <img src="paper.png" alt="">
+          </div>
+
+          <div class="choice" id='scissors'>
+            <img src="scissors.png" alt="">
+          </div>
+
+      </div>
+
+
+  <div class="container">
+    <button type="button" name="button" id='reset_button'>Reset Score !</button>
+  </div>
+
+
+
+
+
+      <script src="rockpaperscissors.js" charset="utf-8"></script>
+
+  </body>
+</html>
