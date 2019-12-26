@@ -1,3 +1,3 @@
 # rock-paper-scissors
 
-[](!rock-paper-scissors.gif)
+![](rock-paper-scissors.gif)
