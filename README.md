@@ -1,6 +1,5 @@
 # rock-paper-scissors
-*Need to add some style.
-*Need to add 1v1;
+Possible 1vs1 option.
 
 
 
