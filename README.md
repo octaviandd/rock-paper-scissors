@@ -3,4 +3,4 @@ Possible 1vs1 option.
 
 
 
-![](rock-paper-scissors.gif)
+![](rockpaperscissors.gif)
