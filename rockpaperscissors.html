@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="rockpaperscissors.css">
+    <script src="https://kit.fontawesome.com/1e10f2d5f9.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
 
     <title>Rock Paper Scissors</title>
@@ -9,63 +11,51 @@
 
   <body>
 
-    <header>
-      <h1>Rock Paper Scissors</h1>
-    </header>
 
-    <div class="container"><h2><span id='round_number'>Round:</span></h2></div>
-
-
-    <div class="container">
-      <div class="player">PLAYER</div>
-      <div class="player">COMPUTER</div>
+    <div class="navbar">
+      <a href="https://github.com/octaviandd"><i class="fab fa-github"></i></a>
     </div>
 
 
 
-    <div class="container">
-      <div class="wintieswin">WINS</div>
-      <div class="wintieswin" id='ties'>TIES</div>
-      <div class="wintieswin">WINS</div>
-    </div>
-
-
-    <div class="container">
-      <div class="wintieswin1" id='player_wins'><span id='user_score'>0</span></div>
-      <div class="wintieswin1" id='tie'><span id='ties_number'>0</span></div>
-      <div class="wintieswin1" id='computer_wins'><span id='computer_score'>0</span></div>
-    </div>
-
-
-
-
-
-      <div class="choices">
-
-          <div class="choice" id="rock">
-            <img src="rock.png" alt="">
-          </div>
-
-          <div class="choice" id='paper'>
-            <img src="paper.png" alt="">
-          </div>
-
-          <div class="choice" id='scissors'>
-            <img src="scissors.png" alt="">
-          </div>
-
+    <div class="main-container">
+      <div class="user-side">
+        <div class="icon"><i class="fas fa-user"></i></i></div>
+        <div class="score" id='user_score'>0</div>
       </div>
+      <div class="game">
+        <i class="far fa-hand-rock" id="rock"></i>
+        <i class="far fa-hand-paper" id="paper"></i>
+        <i class="far fa-hand-scissors" id="scissors"></i>
+      </div>
+      <div class="computer-side">
+        <div class="icon"><i class="fas fa-robot"></i></div>
+        <div class="score" id='computer_score'>0</div>
+      </div>
+    </div>
+
+    <div class="winner">
+      <h2 id="winner">Who wins</h2>
+    </div>
+
+    <div class="footbar">
+      <h2 id="round_number">Rounds: </h2>
+      <div id="reset_button">Reset Score!</div>
+    </div>
 
 
-  <div class="container">
-    <button type="button" name="button" id='reset_button'>Reset Score !</button>
-  </div>
+
+
+    
 
 
 
+    <div class="container">
+      
+      <div class="wintieswin1" id='tie'><span id='ties_number'>0</span></div>
+    </div>
 
-
-      <script src="rockpaperscissors.js" charset="utf-8"></script>
+      <script src="app.js" charset="utf-8"></script>
 
   </body>
 </html>
